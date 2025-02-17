@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    flex: auto;
+}
+article {
+    flex: 2;  /* Takes 2 parts */
+}
+
+aside {
+    flex: 1;  /* Takes 1 part */
+}
+article, aside {
+    overflow-y: auto;
+}
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark text */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff; /* Blue header */
+    color: white;
+    padding: 10px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+article {
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #fdf6e3; /* Soft beige */
+}
